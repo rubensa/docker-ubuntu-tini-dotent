@@ -1,5 +1,8 @@
 # Docker image with .Net SDK
 
+> **_NOTE:_** This image is deprecated.  dotnet-install.sh is now included with [rubensa/ubuntu-tini-dev](https://github.com/rubensa/docker-ubuntu-tini-dev).  If you want to install latest dotnet LTS (or any other version) in your container, just run:  
+```dotnet-install.sh --version LTS --install-dir ${DOTNET_ROOT}```
+
 This is a Docker image based on [rubensa/ubuntu-tini-dev](https://github.com/rubensa/docker-ubuntu-tini-dev) and includes .Net SDK.
 
 ## Building
